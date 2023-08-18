@@ -27,3 +27,6 @@
    }
 
   👉 **Note:** Ensure that the CMDER_ROOT environment variable is correctly configured. Alternatively, you can replace ${env:cmder_root} with the actual path to your Cmder installation (not recommended).
+
+### Tags
+Cmder, VS Code Terminal, Shell
