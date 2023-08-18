@@ -1,0 +1,57 @@
+# Name of the Conda environment
+name: QuantFinanceHub
+
+# Channels to look for packages (Conda repositories)
+channels:
+  - defaults
+
+# List of packages to install from Conda repositories
+dependencies:
+  - Python
+  - pip
+  - numpy                   # Fundamental package for scientific computing
+  - pandas                  # Data analysis and manipulation library
+  - matplotlib              # Plotting and data visualization
+  - seaborn                 # Statistical data visualization
+  - scikit-learn            # Machine learning library
+  - tensorflow              # Machine learning framework
+  - jupyter                 # Interactive computing and data analysis
+  - jupyterlab              # JupyterLab environment
+  - requests                # HTTP library for making requests
+  - beautifulsoup4          # HTML parsing and web scraping
+  - sqlalchemy             # SQL toolkit and Object-Relational Mapping
+  - django                  # High-level Python web framework
+  - flask                   # Lightweight web application framework
+  - pytest                  # Testing framework
+  - opencv                  # Computer vision library
+  - nltk                    # Natural language processing toolkit
+  - gensim                  # Topic modeling and document similarity
+  - pillow                  # Imaging library
+  - pytorch                 # Deep learning framework
+  - networkx                # Network analysis and modeling
+  - sympy                   # Symbolic mathematics
+  - numba                   # Just-in-time compiler for Python
+  - openpyxl                # Working with Excel files
+  - scikit-image            # Image processing library
+  - h5py                    # Interface to HDF5 format
+  - bokeh                   # Interactive data visualization
+  - plotly                  # Interactive plotting library
+  - statsmodels             # Statistical modeling and hypothesis testing
+  - virtualenv              # Virtual Python environment builder
+  - scrapy                  # Web crawling and web scraping framework
+  - flask-restful           # REST API development using Flask
+  - pyarrow                 # Columnar in-memory analytics
+  - spacy                   # Industrial-strength natural language processing in Python
+  - black                   # Code formatting
+  - isort                   # Import sorting
+  - colorama                # Terminal text coloring
+  - pip:
+    - polars                  # Data manipulation and analysis in Rust and Python
+    - pykeepass               # Password manager interface for KeePass databases
+    - yfinance                # Yahoo Finance data downloader
+    - duckdb                  # Analytical SQL engine for Python
+    - fastai                  # Deep learning library built on PyTorch
+    - jupyterlab-widgets      # Interactive widgets for JupyterLab
+
+# Path where the environment will be created
+prefix: C:\Users\amine\bin\miniconda3\envs\QuantFinanceHub
