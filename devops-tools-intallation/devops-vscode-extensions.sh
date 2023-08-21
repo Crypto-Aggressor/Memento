@@ -21,3 +21,4 @@ code --install-extension owenfarrell.vscode-vault
 code --install-extension redhat.vscode-yaml
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension ms-toolsai.jupyter
+code --install-extension ionutvmi.reg
