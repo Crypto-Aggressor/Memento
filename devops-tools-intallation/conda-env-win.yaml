@@ -19,7 +19,7 @@ dependencies:
   - jupyterlab              # JupyterLab environment
   - requests                # HTTP library for making requests
   - beautifulsoup4          # HTML parsing and web scraping
-  - sqlalchemy             # SQL toolkit and Object-Relational Mapping
+  - sqlalchemy              # SQL toolkit and Object-Relational Mapping
   - django                  # High-level Python web framework
   - flask                   # Lightweight web application framework
   - pytest                  # Testing framework
